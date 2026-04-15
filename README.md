@@ -3,6 +3,10 @@
 
 # Overview
 An end to end data analysis project on 541,909 retail transactions from a UK based online store covering December 2010 to December 2011. The project covers the complete data analysis pipeline from raw data cleaning to machine learning based churn prediction.
+##  Live ML App
+ https://onlineretailanalysis-ypsrhpy5zcpcdvhbeeprin.streamlit.app/
+
+Interactive web application to predict customer churn using RFM values.
 
 # Dataset
 - Source: Kaggle — Online Retail Dataset
@@ -88,10 +92,25 @@ Raw Data → Data Cleaning → EDA → RFM Analysis → Cohort Analysis → Chur
 6. Focus retention strategy on increasing purchase frequency to reduce churn
 7. Invest in customer acquisition — New Customers segment is critically small at 319
 
+# Deployment
+
+The churn prediction model has been deployed as an interactive web application using Streamlit Cloud.
+Users can input:
+- Recency (days since last purchase)
+- Frequency (number of orders)
+- Monetary (total amount spent)
+The app predicts:
+- Customer churn (High / Low)
+- Probability of churn
+🔗 Live App: https://onlineretailanalysis-ypsrhpy5zcpcdvhbeeprin.streamlit.app/
+
+##  Note
+Initially developed as a local data analysis and ML project, and later enhanced by deploying it as a live web application.
 # Tools Used
 - **Python** — Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
 - **PowerBI Desktop** — Interactive dashboard
 - **Jupyter Notebook / VS Code** — Development environment
+
 
 # Author
 Jella Sreeja
